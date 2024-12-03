@@ -2,6 +2,9 @@ on:
   release:
     types: [published]
 
+permissions:
+  issues: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
